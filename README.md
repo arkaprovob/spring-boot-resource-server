@@ -15,7 +15,7 @@ Simply select the `local` profile and run the application. The application will 
 
 ### Running with the Spring Cloud Config Server
 1. Initiate the setup of the server and start it.
-2. After the server is up and running, define the following two environment variables:
+2. Define the following two-environment variables and start the server:
    1. `CONFIG_SERVER` should be set to the URL of your config server (append a `/` at the end).
    2. `PROFILE` should match the profile that you're planning to use and which is also available in the config server, registered for your application.
 
